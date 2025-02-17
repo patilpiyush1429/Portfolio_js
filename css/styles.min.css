@@ -13,7 +13,7 @@ body {
 }
 
 .world-map {
-  background: url("/images/bg-1.jpg");
+  /* background: url('.images/bg-1.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -23,6 +23,8 @@ body {
   right: 0;
   left: 0;
   opacity: 0.3;
+
+
 }
 
 .video-background {
@@ -88,15 +90,15 @@ progress::-webkit-progress-value {
   opacity: 1;
 }
 
-.modal {
+/* .modal {
   position: fixed;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   width: 30%;
   max-width: 80%;
-  background: url("/images/modal-bg.jpg");
+  background-image: url('./images/modal-bg.jpg');
   color: #000;
   text-transform: uppercase;
-}
+} */
 
 .modal .modal-header {
   background: rgba(0, 0, 0, 0.3);
@@ -432,9 +434,49 @@ button:hover {
 
 @media (max-width: 1600px) {
   .cards-container {
+    /* margin: 0; */
+    padding: 0;
     width: 1200px;
   }
+
+  .profile{
+    margin-top: 50px;
+    margin-left: -107px;
+    z-index: 11;
+  }
+  
+  
+  
+  
+ .languages{
+  margin-top: 481px;
+  margin-left: -511px;
+  z-index: 10;
+ }
+ .skillset{
+  margin-top: 99px;
+ margin-left: -249px;
+ z-index: 9;
+ }
+ .server-log{
+  margin-top: 453px;
+  margin-left: 500px;
+  
+    z-index: 5;
+ }
+ .education{
+  z-index: 6;
+  margin-top: 224px;
+  margin-left: 712px;
+ }
+ .projects{
+  z-index: 11;
+  margin-left: 631px;
+ margin-top: 60px;
+ 
+ }
 }
+
 
 @media (max-width: 1200px) {
   .cards-container {
@@ -444,12 +486,81 @@ button:hover {
   .modal {
     width: 40%;
   }
+  .profile{
+    margin-top: 50px;
+    margin-left: -56px;
+    z-index: 11;
+  }
+  
+  
+  
+  
+ .languages{
+  margin-top: 240px;
+  margin-left: -67px;
+  z-index: 9;
+ }
+ .skillset{
+  margin-top: 237px;
+  margin-left: -162px;
+ z-index: 10;
+ }
+ .server-log{
+  margin-top: 301px;
+  margin-left: 406px;
+  z-index: 1;
+ }
+ .education{
+  z-index: 5;
+  margin-top: 32px;
+  margin-left: 442px;
+ }
+ .projects{
+  z-index: 4;
+  margin-left: 371px;
+  margin-top: 559px;
+ 
+ }
+ 
 }
 
 @media (max-width: 980px) {
   .cards-container {
     width: 768px;
   }
+
+  .profile{
+    margin-top: 25px;
+    margin-left: -84px;
+    z-index: 11;
+  }
+  
+ .languages{
+  margin-top: 274px;
+  margin-left: -63px;
+  z-index: 9;
+ }
+ .skillset{
+  margin-top: 274px;
+  margin-left: -100px;
+ z-index: 10;
+ }
+ .server-log{
+  margin-top: 390px;
+  margin-left: 243px;
+    z-index: 1;
+ }
+ .education{
+  z-index: 5;
+  margin-top: 40px;
+  margin-left: 309px;
+ }
+ .projects{
+  z-index: 4;
+  margin-left: 202px;
+  margin-top: 583px;
+ 
+ }
 }
 
 @media (max-width: 768px) {
@@ -478,4 +589,37 @@ button:hover {
   .card .card-header .move-card {
     display: none;
   }
+  .profile{
+    margin-top: 50px;
+    margin-left: 0px;
+    z-index: 11;
+  }
+  
+ .languages{
+  margin-top: 50px;
+  margin-left: 0px;
+  z-index: 9;
+ }
+ .skillset{
+  margin-top: 50px;
+ margin-left: 0px;
+ z-index: 10;
+ }
+ .server-log{
+  margin-top: 50px;
+  margin-left: 0px;
+    z-index: 4;
+ }
+ .education{
+  z-index: 5;
+  margin-top: 50px;
+  margin-left: 0px;
+ }
+ .projects{
+  z-index: 4;
+  margin-left: 0px;
+  margin-top: 50px;
+ 
+ }
+
 }
